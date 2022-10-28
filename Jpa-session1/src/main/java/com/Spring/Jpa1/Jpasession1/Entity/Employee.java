@@ -54,4 +54,14 @@ public class Employee
     {
         this.location = location;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", location='" + location + '\'' +
+                '}';
+    }
 }
